@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="profile-picture-container">
+        <img src="Me.png" alt="Me.png">
+    </div>
+    
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Entry Level Full-Stack-Developer
+        Full stack web developer with 1 year of experience determined to develop my own skill to Accelerate my learning and productivity. I have recently earned a certificate from the University Of Utah, I have used this experience to absorb as much JS, CSS, React, Node, NoSQL, and MongoDB as possible to start my journey out with a well-built foundation. Recognized as easy to get along with and driven to improve my skills to build myself up. Passionate about learning anything I can from an existing problem to make future problem-solving easier to conquer. Solving problems in new and innovative ways gives me an extreme sense of accomplishment that I have not found anywhere else. Known to look up to others with greater skills than myself to take in anything I can to improve. Excited to use my newfound skills to problem-solve and create more interactive and user-friendly web experiences. Captivated with computer science and engineering since a young age with a substantial desire to share this passion with new users and experts alike.</p>
+    </section>
+
+    <div class="BigRock-container">
+        <img src="BigRock.png" alt="BigRock.png">
+    </div>
+    
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h1>Weather-App</h1>
+            <p>My main goal with this app was to use an API call using javascript in my project to get the weather of any place in the world.</p> 
+            <a href="https://firm-tofu10.github.io/Weather-WebAppV2/">Weather-App</a>            
+            <h3>Tech:</h3>
+            <li id="list">Javascript</li>
+            <li id="list">CSS</li>
+            <li id="list">HTML</li>
+            <li id="list">OpenWeather-API</li>
+        </div>
+        <div class="project">
+            <h1>Password Gen</h1>
+            <p>This app was created for my simple need to create a password randomly. This is done using javascript arrays and assigning them checkboxes based on the needed amount of characters controlled via a slider.</p>
+            <a href="https://firm-tofu10.github.io/Password-GeneratorV2/">Password Gen</a>
+            <h3>Tech:</h3>
+            <li id="list">Javascript</li>
+            <li id="list">CSS</li>
+            <li id="list">HTML</li>
+        </div>
+        <div class="project">
+            <h1>Day-Planner</h1>
+            <p>I created this app to help better plan my work day and manage time more effectively. This was done using CSS to highlight times to reflect what has passed and what time is still available in the day.</p>     
+            <a href="https://firm-tofu10.github.io/Day-Planer/">Day-Planner</a>
+            <h3>Tech:</h3>
+            <li id="list">Javascript</li>
+            <li id="list">CSS</li>
+            <li id="list">HTML</li>
+        </div>
+        <div class="project">
+            <h1>Marketplace-Backend</h1>
+            <p>this project was to practice and showcase my understanding of routes and the MySQL DB.</p> 
+            <a href="https://github.com/Firm-Tofu10/Markertplace-Backend">Marketplace-Backend Github</a>
+            <h3>Tech:</h3>
+            <li id="list">Javascript</li>
+            <li id="list">HTML</li>
+            <li id="list">MySQL</li>
+        </div>
+    </section>
+    
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
